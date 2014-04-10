@@ -1,0 +1,567 @@
+/* CSS Document */
+*{ margin: 0; padding: 0; border: 0; }
+html{height: 100%;}
+body		{ 
+				background-image:url(images/background1.jpg);
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				background-size:cover;
+					
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;	
+				
+				height: 100%;
+				
+				font-size: 16px;
+			}
+
+#center		{
+				width: 100%;
+				height:100%;
+			}
+			
+/*******************************************************element 1 start menu*/	
+#header  	{
+				/*max-width:2000px;
+				min-width:481px;*/
+				width:100%;
+				height:10%;
+				min-height:10%;
+				margin-top: 2%;
+				position:relative;
+				box-shadow: 10px 5px 10px #2C2C2C;
+			}
+
+nav			{
+				position:absolute;
+				width:100%;
+				height: 100%;
+				font-size: 16px;
+				
+			}
+#transnav	{
+				width:100%;
+				clear:both;
+				height: 100%;
+				position:absolute;
+				opacity:0.3;
+				filter:alpha(opacity=30);
+				background-color:#FFFFFF;
+				display:block;
+				z-index:-1;
+				
+			}
+
+nav div
+			{
+				font-size:1em;
+				
+				width:40%;
+				height:100%;
+				margin-top:1%;
+				line-height:100%;
+				margin-left: 20px;
+				color:#890503;
+				
+			}
+			
+nav ul
+			{
+				display:inline;
+				width:60%;
+				
+				/*margin-top: 30px;	*/
+				/*position:absolute;*/
+				float:right;
+				list-style-type:none;				
+			}
+			
+nav li
+			{
+				float: left;
+				/*margin-top: 10px;*/
+				height:100%;
+				margin-top:2%;
+				line-height:1em;
+				font-size:0.5em;
+				
+				
+			}
+			
+nav li a
+			
+			{
+				color:#890503;
+				text-decoration:none;
+			}
+			
+nav li a:hover
+			{
+				color:#000;
+				/*text-shadow:0.625em 0.625em #FC0;*/
+			}
+nav li.a
+			{
+				
+				 
+				
+			}
+
+nav	li:nth-child(1) 
+			{
+   				
+				width:10%;
+				text-align:center;
+				margin-right:10%;
+				margin-top:3%;		
+									
+			}
+nav	li:nth-child(2) 
+			{
+   				width:10%;
+				text-align:center;	
+				margin-right:10%;					
+			}
+nav	li:nth-child(3) 
+			{
+   				width:10%;
+				text-align:center;	
+				margin-right:10%;						
+			}
+nav	li:nth-child(4) 
+			{
+   				width:8%;
+				text-align:center;
+				margin-right:8%;						
+			}
+nav	li:nth-child(5) 
+			{
+   				width:10%;
+				text-align:center;
+				margin-right:10%;				
+			}
+nav form select 	{
+  				display: none;
+			}
+
+
+/*******************************************************element 1 end menu*/
+
+/*******************************************************element 2 start Content*/	
+#trans_div_back
+			{
+				width:100%;
+				height:100%;
+				position:absolute;
+				background-color:#FFFFFF;
+				opacity:0.3;
+				filter:alpha(opacity=30); 
+				z-index:-1;
+				
+				
+			}
+/*.trans_div_bkg
+			{
+				background-image
+			}*/	
+#content
+			{
+				margin-top:4%;
+				width:100%;
+				height:84%;
+				clear:both;
+				overflow:hidden;
+				position:relative;
+				border-top:1px solid black;
+			}
+/*******************************************************element 1 end content*/
+
+/*******************************************************element 2 start inner-Content*/
+
+#content_container
+			{
+				max-width:720px;
+				min-width:320px;
+				margin: 0 auto;
+				height:auto;
+				margin-top:2%;
+				position:relative;
+				clear:both;
+			}
+#trans_div
+			{
+				width:100%;
+				height:100%;
+				position:absolute;
+				/*background-color: rgb(240,240,240);*/
+				background-image:url(images/background5.jpg);
+				background-repeat:repeat;
+				opacity:0.8;
+				z-index:-1;		
+				border:1px solid #000;
+				border-radius: 15px;
+				/*box-shadow:inset 0px -2px 8px 0px black, inset 0px 2px 9px 0px white, inset 4px 0px 9px 1px black, inset -4px 0px 9px 1px black;	*/
+				
+				box-shadow:/*inset -3px -3px 8px #000000 ,*/inset 4px 4px 8px 0px #000000;
+				-webkit-box-shadow: inset 4px 4px 8px 0px #000000;
+    			-moz-box-shadow: inset 4px 4px 8px 0px #000000;
+				
+				
+			}
+#content_container_img
+			{
+				width:100%;
+				height:100%;
+				overflow: auto;	/*This makes the child elements float left and right*/		
+				font-size: 16px;
+			}
+
+/*******************************************************element 2 end inner-Content*/	
+/*******************************************************element4 start div_template*/
+	
+/*******************************************************element4 start coming_soon*/
+#content_container_comingsoon
+			{
+				max-width:720px;
+				min-width:320px;
+				margin: 0 auto;
+				height:auto;
+				margin-top:2%;
+				position:relative;
+				clear:both;
+			}
+#trans_div_comingsoon
+			{
+				width:100%;
+				height:100%;
+				position:absolute;
+				/*background-color: rgb(240,240,240);*/
+				background-image:url(images/background5.jpg);
+				background-repeat:repeat;
+				opacity:0.8;
+				z-index:-1;		
+				border:1px solid #000;
+				border-radius: 15px;
+				/*box-shadow:inset 0px -2px 8px 0px black, inset 0px 2px 9px 0px white, inset 4px 0px 9px 1px black, inset -4px 0px 9px 1px black;	*/
+				
+				box-shadow:/*inset -3px -3px 8px #000000 ,*/inset 4px 4px 8px 0px #000000;
+				-webkit-box-shadow: inset 4px 4px 8px 0px #000000;
+    			-moz-box-shadow: inset 4px 4px 8px 0px #000000;
+				
+				
+			}
+#content_container_img_comingsoon
+			{
+				width:100%;
+				height:100%;
+				overflow: auto;	/*This makes the child elements float left and right*/		
+				font-size: 16px;
+			}	
+#coming_soon
+			{
+				max-width:750px;
+				min-width:320px;
+				margin: 0 auto;
+				height:auto;
+				margin-top:2%;
+				position:relative;
+			}
+/*******************************************************element4 end coming_soon*/
+
+#content_slide1
+			{
+				width:95%;
+				position:relative;
+				
+				margin-left: auto ;
+ 				margin-right: auto ;
+				margin-top:5%;
+				 	
+			}
+#obia_logo	{
+				width:40%;
+				
+				float:left;				
+				position:relative;
+				/*margin-top:5%;*/
+				
+			}
+#div-text	{
+				width:60%;
+				height:100%;
+				float:right;
+				color: black;
+				/*margin-top:5%;*/
+			}
+/*******************************************************element3 end div_template*/	
+/*******************************************************element4 start footer*/	
+#footer		{
+				margin-top:-90px;
+				height:30px;
+				width:750px;	
+			}
+			
+#footer_trans
+			{
+				position:absolute;
+				height:30px;
+				width:750px;
+				background-image:url(images/menu_img.JPG);
+				border:3px solid black;
+				opacity:0.5;
+			  	filter:alpha(opacity=50);
+				-webkit-border-bottom-right-radius: 10px;
+				-webkit-border-bottom-left-radius: 10px;
+				-moz-border-radius-bottomright: 10px;
+				-moz-border-radius-bottomleft: 10px;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+				box-shadow: -2px -2px 8px rgba(247, 154, 7, 0.8);
+				-moz-box-shadow: -2px -2px 5px rgba(247, 154, 7, 0.8);
+				-webkit-box-shadow: -2px -2px 5px rgba(247, 154, 7, 0.8);
+			}
+#footer_con
+			{
+				width:750px;
+				height:30px;
+				position:absolute;
+			}
+#FB			{
+				width:15%;
+				height:30px;
+				background-image:url(images/mailicon1.png);
+				background-repeat:no-repeat;
+				background-size:30px 20px;
+				float:left;
+				margin: 6px 6px;
+			}
+#FB2		{
+				width:15%;
+				height:30px;
+				background-image:url(images/wood-instagram-icon1.png);
+				background-repeat:no-repeat;
+				float:left;
+				background-size:30px 30px;
+			}
+#FB3		{
+				width:15%;
+				height:30px;
+				background-image:url(images/twitter-bird2.png);
+				background-repeat:no-repeat;
+				float:left;
+				background-size:30px 30px;
+			}
+#FB4			{
+				width:15%;
+				height:30px;
+				background-image:url(images/facebook.png);
+				background-repeat:no-repeat;
+				float:left;
+				
+				background-size:30px 30px;
+			}
+	
+#footer_line3
+			{
+				width:35%;
+				height:100%;
+				margin-top:10px;
+				font-size:12px;
+				
+				float:left;
+			}
+			
+/*******************************************************element4 end footer*/	
+#content_text
+			{
+				
+			}
+			
+.form_check
+			{
+				font-size:0.55em;
+				width:100%;
+				height:100%;
+			}
+			
+
+#labels		{
+				width:25%;
+				height:100%;
+				float:left;
+			}
+#input		{
+				width:75%;
+				height:100%;
+				float:left;
+				margin-top:1%;
+			}
+.label1		{
+				width:100%;
+				height:5px;
+			}
+#social_icons
+			{
+				float:right;
+				width:100px;
+				height:300px;
+				
+			}
+#f_icons	{
+				background-image:url(images/099630-glossy-waxed-wood-icon-social-media-logos-facebook-logo-square.png);
+				background-repeat:no-repeat;
+				width:100px;
+				height:100px;
+			}
+#t_icons	{
+				background-image:url(images/099699-glossy-waxed-wood-icon-social-media-logos-twitter-bird2.png);
+				background-repeat:no-repeat;
+				width:100px;
+				height:100px;
+			}
+#i_icons	{
+				background-image:url(images/wood-instagram-icon.png);
+				background-repeat:no-repeat;
+				width:100px;
+				height:100px;
+			}
+.margin20	{
+				margin: 20px 20px;
+			}
+.tester{}
+
+#nostyle	{
+				list-style-type:none;
+			}
+			
+.ancient	{
+				
+				font-size:1.18em;
+				text-align:center;
+			}
+.bottom		{
+				position:absolute;
+   				bottom:0;
+				right:160px;
+				
+			}
+			
+.title		{
+				margin-top:25px;
+				text-align:center;
+				width:50%;
+				
+				margin-left: auto ;
+ 				margin-right: auto ;
+				font-family: 'Lobster', cursive;
+				color:#FFFFFF;
+				font-size:50px;
+			}
+.content_slide
+			{
+				width:100%;
+				
+			}
+
+.product_shelf
+			{
+				
+				font-size:60px;
+			}
+.aboutus	{
+				
+				font-size:1.5em;
+				text-align:center;
+			}
+.word		{
+				font-size:.90em;
+			}
+#logo		{
+				
+				background-image:url(images/logo-obiaspirits2.png);
+				width:100%;
+				height:100%;
+				background-repeat:no-repeat;
+			}
+#no_age_cookie
+			{
+				position:absolute; 
+				top: 4%;
+				height: 80%; 
+				width: 100%;
+				
+			}
+.font_type1{ font-family: 'Gabriela', serif;
+}
+.font_type2{ font-family: 'Lobster', sans serif;
+}
+.font_color1{ color:#FFFFFF;
+}
+.font_color2{ color:#890503;
+}
+.font_color3{ color:black /*rgb(125, 116, 73)*/;
+}
+img 		{
+				opacity:0.9;
+				filter:alpha(opacity=70); 
+				position:relative;
+				clear:both;
+			}
+.center		{
+				width:95%;
+				margin:0 auto;
+			}
+#floater	{
+				float:left; 
+				height:50%; 
+				margin-bottom:-190px;
+			}
+#scroll		{
+				height:auto;
+				width:100%;
+			}
+logo_title	{
+				font-size:1.18em;
+				width:100%;
+			}
+			
+
+/*******************************************************contact div*/	
+#contactus	{
+				
+				height:auto;
+				
+				width:70%;
+				margin:0 auto;
+				
+			}
+#left_col	{
+				width:40%;
+				float:left;
+			
+			}
+#right_col	{
+				width:40%;
+				float:right;
+			}
+#box		{
+				width:100%;
+				height:50%;
+			}
+#image		{
+				width:100%;
+				
+			}
+#text		{
+				width:100%;
+				height:25%;
+			}
+/*******************************/
+#comingsoontext
+			{
+				font-size:5em;
+				text-align:center;
+				color:#660000;	
+				text-shadow:0.02em 0.02em #CCCCCC;
+			}
