@@ -6,7 +6,7 @@
 
 <title>Obia Spirits</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="media-queries.css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" />
+
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=sketchboards|Lobster|Gabriela">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -40,7 +40,11 @@
     })
 
 });</script>
-
-
+<script>
+$(window).resize(function() {
+        location.reload();
+		
+});
+</script>
 
 </head>

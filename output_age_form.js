@@ -154,7 +154,7 @@ if (pluto == null || pluto=='') {
     document.write("  			<option value=\"1915\">1915<\/option>");
     document.write("  			<option value=\"1914\">1914<\/option>");
     document.write("  			<option value=\"1913\">1913<\/option>");
-    document.write("   		<\/select>&nbsp;&nbsp;<button style=\"border-radius: 3px; box-shadow: 2px 2px 5px rgb(247, 154, 7); color:yellow; background-color: #000000; border:1px solid white;\" id=\"submit_birthdate\" ");
+    document.write("   		<\/select><\/br>&nbsp;&nbsp;<button style=\"border-radius: 3px; box-shadow: 2px 2px 5px rgb(247, 154, 7); font-size:.60em; color:yellow; background-color: #000000; border:1px solid white;\" id=\"submit_birthdate\" ");
     document.write("           onclick=\"ageCheck()\" \/>Lets go!<\/button>");
     document.write("	<\/h1>");
     /*document.write("    <h2 id=\"age_must_cookies\">You must have cookies enabled to use this site.YOU CAN CHANGE OR ELIMINATE THIS TEXT ON LINE 160<\/h2>");*/
