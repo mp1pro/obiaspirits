@@ -18,7 +18,7 @@
            						</div></a>
                                 
                                 <div id="footer_line3">
-            						Registered Trademark of Obia Spirits LLC, 2013
+            						Registered Trademark of Scorpion Enterprise, 2013
            						</div>
            		</div>
             

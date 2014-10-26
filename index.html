@@ -1,38 +1,115 @@
-<?php include('includes/header.php'); ?>
-<body>
+<?php include 'includes/header.php';?>
+<body class="pushmenu-push">
 
 	<div id="no_age_cookie">
             						
-           	</div>
-	<div id="center" >
-
-    		
-    		<?php include('includes/nav.php'); ?>
-    		<div id="content">
-           		
-               	<div id="trans_div_back">
-            		
-            	</div>
-                
-                <div id="content_container">
-                            <div id="trans_div">
-                            
-                            
-                            </div>
-                            <div id="content_container_img">
-                                           	<?php include('includes/img.php'); ?>
-                                            
-                            </div>
-                			  
-            	</div>
-                
-                <div id="coming_soon">
-                			<?php include('includes/comingsoon.php'); ?> 
-                </div>
-                
-            </div> 
-                  
+    </div>
+    <div class="pushmenu pushmenu-left font_type1">
+    <div class="pushmenu-head">OBIA SPIRITS</div>
+    <a href="#">HOME</a>
+    <a href="#">ANCIENT </br>HISTORY</a>
+    <a href="#">PRODUCT </br>SHELF</a>
+    <a href="#">ABOUT </br>US</a>
+    <a href="#">CONTACT </br>US</a>
+  
 	</div>
-<?php include('includes/js.php'); ?>	
+	<div id="wrap" >
+
+    		<!--nav-->
+            <nav role="navigation" class="navbar navbar-default font_type1">
+            	<div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">OBIA SPIRITS</a>
+    			</div>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                	   <ul class="nav navbar-nav navbar-right">
+                       		<li class="a hidden-sm"><a href="index.html">HOME</br></br></a></li>
+                            <li class="b"><a href="ancienthistory.html">ANCIENT </br>HISTORY</a></li>
+                            <li class="c"><a href="productshelf.html">PRODUCT </br>SHELF</a></li>
+                            <li class="d"><a href="aboutus.html">ABOUT </br>US</a></li>
+                            <li class="e"><a href="contactus.html">CONTACT </br>US</a></li>
+                       </ul>
+                </div>
+            
+            </nav>
+            <!--nav-end-->
+    		<!--<?php include('includes/nav.php'); ?>-->
+            <div class="container-fluid ">
+            	<div class="row">
+                	
+                	<div id="content" class="col-md-12 ">
+                    	<div class="row">
+                            <div id="trans_div_back" class="col-md-12" >
+                            </div>
+                            <div class="col-md-3 col-sm-2 left_arrow middle_content hidden-xs">
+                            </div>
+                            <div id="content_container" class="col-md-6 col-sm-8 col-xs-10 col-xs-offset-1 col-md-offset-0 col-sm-offset-0 middle_content">
+                            	<div class="row">
+                                    <div id="content_container_img" class="col-md-12">
+                                        	<?php include 'includes/home.php';?>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-2 right_arrow middle_content hidden-xs">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <!--content-->
+            <!--end content-->
+    		
+            <nav id="footer" class=" navbar-default navbar-fixed-bottom footer" role="navigation">
+            <div class="container-fuid">  
+            	
+            		<div class="col-xs-3 col-md-1 col-lg-1 footer_height">
+                    	<a href="https://www.facebook.com/ScorpionCoConspirators">
+                    	<img src="images/099630-glossy-waxed-wood-icon-social-media-logos-facebook-logo-square.png" class="img-responsive center_img" alt="facebook" height="30px" width="30px">				
+                        </a>
+                    </div>	
+                    <div class="col-xs-3 col-md-1 col-lg-1 footer_height">
+                    	<a href="https://twitter.com/obiaspirits">
+                    	<img src="images/099699-glossy-waxed-wood-icon-social-media-logos-twitter-bird2.png" class="img-responsive center_img" alt="twitter" height="30px" width="30px">				
+                        </a>
+                    </div>
+                    <div class="col-xs-3 col-md-1 col-lg-1 footer_height">
+                    	<a href="mailto:obiaspirits@gmail.com">
+                    	<img src="images/mail_icon.png" class="img-responsive center_img" alt="email" height="30px" width="30px">				
+                        </a>
+                    </div>
+                    <div class="col-xs-3 col-md-1 col-lg-1 footer_height">
+                    	<a href="http://instagram.com/obiaspirits">
+                    	<img src="images/wood-instagram-icon.png" class="img-responsive center_img" alt="instagram" height="30px" width="30px">				
+                        </a>
+                    </div>
+                    
+            		<div class="font_type1 footer_text col-xs-4 col-md-8 hidden-xs">
+            	 		&#169; Scorpion Enterprise
+                    </div>
+            </div>
+            </nav>      
+	</div>
+    
+    <script>
+        $(document).ready(function() {
+                $menuLeft = $('.pushmenu-left');
+                $nav_list = $('.navbar-toggle');
+                 
+                $nav_list.click(function() {
+                        $(this).toggleClass('active');
+                        $('.pushmenu-push').toggleClass('pushmenu-push-toright');
+                        $menuLeft.toggleClass('pushmenu-open');
+                });
+        });
+	</script>
+
 </body>
 </html>
+

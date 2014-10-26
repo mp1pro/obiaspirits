@@ -1,10 +1,12 @@
 
 if (pluto == null || pluto=='') {
     document.write("<div id=\"no_age_cookie\" style=\" z-index: 3000; ");
-    document.write("opacity:0.7; background-color: #000000;text-align:center; color: #FFFFFF;\">");
+    document.write("opacity:0.9; background-color: #000000;text-align:center; color: #FFFFFF;\">");
     /*document.write("    <h3 style=\"text-align: center;\">ENTER YOUR TEXT HERE, LOCATED UNDER ASSETS output_age_form.js FILE, LINE 5<\/h3>");*/
-    document.write("    <h2 style=\"margin-top:150px;\">Please Select Your DOB &nbsp;<\/h2>");
-    document.write("	<h1 ><select name=\"bmonth\" id=\"bmonth\">");
+	document.write(" <form class=\"form-signin\"> ");
+	document.write(" <img class=\"img-responsive\" src=\"images\/logo-obiaspirits2.png\"> ");
+    document.write("  <h3>Please Select Your DOB<\/h3> ");
+    document.write("	<select class=\"form-control form-group\"  name=\"bmonth\" id=\"bmonth\">");
     document.write("  			<option value=\"0\">January<\/option>");
     document.write("  			<option value=\"1\">February<\/option>");
     document.write("  			<option value=\"2\">March<\/option>");
@@ -19,7 +21,7 @@ if (pluto == null || pluto=='') {
     document.write("  			<option value=\"11\">December<\/option>");
     document.write("		<\/select>");
     document.write("");
-    document.write("    	<select name=\"bday\" id=\"bday\">");
+    document.write("    	<select class=\"form-control form-group\"  name=\"bday\" id=\"bday\">");
     document.write("  			<option value=\"1\">1<\/option>");
     document.write("  			<option value=\"2\">2<\/option>");
     document.write("  			<option value=\"3\">3<\/option>");
@@ -53,7 +55,7 @@ if (pluto == null || pluto=='') {
     document.write("  			<option value=\"31\">31<\/option>");
     document.write("		<\/select>");
     document.write("");
-    document.write("    	<select name=\"byear\" id=\"byear\">");
+    document.write("    	<select class=\"form-control form-group\"  name=\"byear\" id=\"byear\">");
     document.write("  			<option value=\"2012\">2012<\/option>");
     document.write("  			<option value=\"2011\">2011<\/option>");
     document.write("  			<option value=\"2010\">2010<\/option>");
@@ -154,9 +156,10 @@ if (pluto == null || pluto=='') {
     document.write("  			<option value=\"1915\">1915<\/option>");
     document.write("  			<option value=\"1914\">1914<\/option>");
     document.write("  			<option value=\"1913\">1913<\/option>");
-    document.write("   		<\/select><\/br>&nbsp;&nbsp;<button style=\"border-radius: 3px; box-shadow: 2px 2px 5px rgb(247, 154, 7); font-size:.60em; color:yellow; background-color: #000000; border:1px solid white;\" id=\"submit_birthdate\" ");
+    document.write("   		<\/select><\/br>&nbsp;&nbsp;<button style=\" id=\"submit_birthdate\" class=\"btn btn-default btn-lg\"");
     document.write("           onclick=\"ageCheck()\" \/>Lets go!<\/button>");
-    document.write("	<\/h1>");
+    document.write("	");
     /*document.write("    <h2 id=\"age_must_cookies\">You must have cookies enabled to use this site.YOU CAN CHANGE OR ELIMINATE THIS TEXT ON LINE 160<\/h2>");*/
+	document.write(" <\/form> ");
     document.write("<\/div>");
 }

@@ -61,8 +61,8 @@ $contactus='	<div id="contactus">
 				</div>
                     
                             ';
-$product='					<div class="center">
-                            	<img src="images/product2.png"  width="100%" height="50%"/>
-                            </div>';
+$product='					
+                            	<img src="images/product2.png"  width="100%" height="120%"/>
+                            ';
 $coming_soon='<div id="comingsoontext">Coming Soon</div>';
 ?>

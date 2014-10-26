@@ -1,5 +1,6 @@
 <?php include('variables/variables.php'); ?>
-<div id="content_container_comingsoon">
+				<div id="coming_soon">
+				<div id="content_container_comingsoon">
                             <div id="trans_div_comingsoon">
                             
                             
@@ -10,3 +11,4 @@
                             </div>
                 			  
             	</div>
+                </div>

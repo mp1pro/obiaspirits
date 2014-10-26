@@ -5,10 +5,18 @@
 	</script> 
     <script>
     $('nav').flowtype({
-		
+		fontRatio : 75
 		});
-	</script> 
+		</script>
 	<script>
+    $('.navbar-brand').flowtype({
+		
+		minFont   : 30
+		});
+	</script>
+
+    
+	<!--<script>
     $('#content_container_img').flowtype({
 		
 		});
@@ -19,7 +27,7 @@
 		});
 	</script> 
      
-	<!--<script>
+	<script>
 	$('#obia_logo').css('height',$('#div-text').css('height'));
 	</script>-->
 	";
