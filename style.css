@@ -7,7 +7,7 @@
         height: 100%;
         top: 0;
         z-index: 1000;
-		
+				
 }
  
 .pushmenu-head {
@@ -20,9 +20,15 @@
 		opacity:.3;
 		font-size:2em;
 		text-align:center;
-				
+		
 }
   
+.pushmenu-bottom{
+		background-color:white;
+		opacity:.3;
+		overflow:hidden;
+		height: 500px;
+	}
 .pushmenu a {
         display: block;
         color:#890503;
