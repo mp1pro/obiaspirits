@@ -1,19 +1,28 @@
-<?php include('includes/header.php'); ?>
-<body>
+<?php include 'includes/header.php';?>
+<body class="pushmenu-push">
 
 	<div id="no_age_cookie">
             						
-           	</div>
+    </div>
+    <div class="pushmenu pushmenu-left font_type1">
+    <!--<div class="pushmenu-head">OBIA SPIRITS</div>-->
+    <a href="index.html">HOME</a>
+    <a href="ancienthistory.html">ANCIENT </br>HISTORY</a>
+    <a href="productshelf.html">PRODUCT </br>SHELF</a>
+    <a href="aboutus.html">ABOUT </br>US</a>
+    <a href="contactus.html">CONTACT </br>US</a>
+  	<div class="pushmenu-bottom"></div>
+	</div>
 	<div id="wrap" >
 
     		<!--nav-->
-            <nav role="navigation" class="navbar navbar-fixed-top navbar-default font_type1">
+            <nav role="navigation" class="navbar navbar-default font_type1">
             	<div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="">
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar">test</span>
-                        <span class="icon-bar">just</span>
-                        <span class="icon-bar">eat</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                       </button>
                       <a class="navbar-brand" href="#">OBIA SPIRITS</a>
     			</div>
@@ -37,16 +46,16 @@
                     	<div class="row">
                             <div id="trans_div_back" class="col-md-12" >
                             </div>
-                            <div class="col-md-3 left_arrow middle_content">
+                            <div class="col-md-3 col-sm-2 left_arrow middle_content hidden-xs">
                             </div>
-                            <div id="content_container" class="col-md-6 middle_content">
+                            <div id="content_container" class="col-md-6 col-sm-8 col-xs-10 col-xs-offset-1 col-md-offset-0 col-sm-offset-0 middle_content">
                             	<div class="row">
                                     <div id="content_container_img" class="col-md-12">
-                                        	<?php include('includes/aboutus.php'); ?>
+                                        	<?php include 'includes/aboutus.php';?>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 right_arrow middle_content">
+                            <div class="col-md-3 col-sm-2 right_arrow middle_content hidden-xs">
                             </div>
                         </div>
                     </div>
@@ -87,6 +96,20 @@
             </div>
             </nav>      
 	</div>
+    
+    <script>
+        $(document).ready(function() {
+                $menuLeft = $('.pushmenu-left');
+                $nav_list = $('.navbar-toggle');
+                 
+                $nav_list.click(function() {
+                        $(this).toggleClass('active');
+                        $('.pushmenu-push').toggleClass('pushmenu-push-toright');
+                        $menuLeft.toggleClass('pushmenu-open');
+                });
+        });
+	</script>
 
 </body>
 </html>
+
