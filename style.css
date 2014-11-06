@@ -476,7 +476,7 @@ body		{
 			
 .ancient	{
 				
-				font-size:.95em;
+				font-size:.75em;
 				text-align:justify;
 				z-index:2;
 				position:relative;
@@ -662,6 +662,22 @@ logo_title	{
 				margin: 0 auto;
 			}*/
 
+}
+@media only screen and (max-width : 541px) {
+.aboutus	{
+				font-size:.9em;
+				text-align:center;
+				
+			}
+.about_us #obia_logo, .ancient_history #obia_logo
+			{
+				display:none;
+			}
+.about_us #div-text, .ancient_history #div-text
+			{
+				width:100%;
+				overflow:scroll;
+			}
 }
 @media only screen and (max-height : 641px) {
 

@@ -1,5 +1,5 @@
 <?php
-$ancient='<div class="center ancient">Obeah (Obia) in the West Indies refers to folk sorcery used to induce ones ambitions to life, primarily practiced in the British West Indies. Obeah is used to bring about luck, love and money.
+$ancient='</br><div class="center ancient">Obeah (Obia) in the West Indies refers to folk sorcery used to induce ones ambitions to life, primarily practiced in the British West Indies. Obeah is used to bring about luck, love and money.
 </br> </br>
 Obia, Spice Island Liquer, is a Caribbean alchoholic beverage from Grenada, West Indies. Given its intoxicating nature and authentic roots, Obia is an all natural entrancing drink for any individual with a taste for smooth alchohol beverages.</div>';
 
