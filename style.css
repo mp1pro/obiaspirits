@@ -350,8 +350,8 @@ body		{
 				width:95%;
 				position:relative;
 				
-				margin-left: auto ;
- 				margin-right: auto ;
+				margin-left: auto;
+ 				margin-right: auto;
 				margin-top:25px;
 				margin-bottom:25px;
 				height:250px;
@@ -676,7 +676,7 @@ logo_title	{
 .about_us #div-text, .ancient_history #div-text
 			{
 				width:100%;
-				overflow:scroll;
+				/*overflow:scroll;*/
 			}
 }
 @media only screen and (max-height : 641px) {
@@ -741,6 +741,15 @@ logo_title	{
 					{
 						height:250px;
 					}
+	#content_slide1
+					{
+						height:200px;
+					}
+	.ancient		{
+						height:165px;
+						overflow:scroll;
+						
+					}
 }
 @media only screen and (max-height : 420px) {
 
@@ -765,6 +774,19 @@ logo_title	{
 					{
 						height:220px;
 					}
+	.ancient		{
+						height:145px;
+						overflow:scroll;
+					}
+	#content_slide1
+					{
+						height:175px;
+					}
+	.aboutus	{
+				font-size:.8em;
+				text-align:center;
+				
+			}
 }
 @media only screen and (max-height : 361px) {
 
@@ -788,5 +810,18 @@ logo_title	{
 	#content_container_img 
 					{
 						height:180px;
+					}
+	.ancient		{
+						height:105px;
+						overflow:scroll;
+					}
+	#content_slide1
+					{
+						height:135px;
+					}
+		.aboutus	{
+					font-size:.7em;
+					text-align:center;
+					
 					}
 }
